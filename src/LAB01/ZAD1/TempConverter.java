@@ -39,7 +39,7 @@ public class TempConverter extends JFrame {
                 } catch (NumberFormatException err) {
                     JOptionPane.showMessageDialog(null, "Please enter a number!");
                 }
-                Result.setText("Temperature in Farenheit: " + temperature + " F");
+                Result.setText("Temperature in Fahrenheit: " + temperature + " F");
 
             }
         });
